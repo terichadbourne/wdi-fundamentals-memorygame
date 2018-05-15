@@ -16,6 +16,16 @@ a {
 	margin: 0px 20px;
 }
 
+footer {
+	text-transform: uppercase;
+	padding: 0 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: .08em;
+	font-weight: 500px;
+}
+
 h1 {
 	color: #0D2C40;
 	font-size: 45px;
@@ -49,8 +59,38 @@ nav {
 	padding: 20px 0;
 }
 
+nav a {
+	border-bottom: 2px solid transparent;
+}
+
+a:hover {
+	border-color: white;
+}
+
 p {
 	font-family: "Droid Serif", serif;
 	line-height: 26px;
 	font-size: 18px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+.copyright {
+	float: left;
+}
+
+.message {
+	float: right;
+}
+
+.name {
+	color: #F15B31;
+	font-weight: 700;
 }
