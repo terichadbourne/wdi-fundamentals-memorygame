@@ -1,0 +1,33 @@
+body {
+	text-align: center;
+	font-family: Raleway, sans-serif;
+}
+
+a, h1, h2 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+a {
+	text-decoration: none;
+	color: #F15B31;
+	font-size: 18px;
+}
+
+h1 {
+	color: #0D2C40;
+	font-size: 45px;
+	font-weight: 400;
+}
+
+h2 {
+	color: #0D2C40;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+p {
+	font-family: "Droid Serif", serif;
+	line-height: 26px;
+	font-size: 18px;
+}
