@@ -11,20 +11,24 @@
 	</header>
 	<nav>
 		<a href="#instructions">Instructions</a>
-		<a href="#game">Game</a>
+		<a href="#game-board">Game</a>
+		<a href="#developer">Developer</a>
+
 	</nav>
 	<main>
 		<h2 id="instructions">Instructions</h2>
 		<p>Concentration, also known as Match Match, Memory, Pelmanism, Shinkei-suijaku, Pexeso or simply Pairs, is a card game in which all of the cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards.</p>
+		<p>Pro tip: The cards won't move unless you click the shuffle button below. You can also click to clear your score. (Avoid refreshing the page, which will do both.)</p>
 
-		<div id="game">
-			<img src="images/back.png" alt="Queen of Diamonds">
-			<img src="images/back.png" alt="Queen of Hearts">
-			<img src="images/back.png" alt="King of Diamonds">
-			<img src="images/back.png" alt="King of Hearts">
+		<div id="game-board" class="board clearfix">
 		</div>
 
-		<h2>About the Author</h2>
+		<p>Current Score: <span id="score">0</span></p> 
+
+		<button id="shuffle">Shuffle Cards</button>
+		<button id="clearScore">Reset Score</button>
+
+		<h2 id="developer">About the Developer</h2>
 		<p>Teri Chadbourne is a front-end web developer and developer advocate who loves building developer communities through unique, impactful events. She's co-organizer of <a href="http://offlinefirst.org/camp">Offline Camp</a> and helps to organize the growing community of developers and UX professionals taking an <a href="http://offlinefirst.org">Offline First</a> approach to web development. Learn more about Teri on:</p>
 		<ul>
 			<li><a href="https://twitter.com/eventteri">Twitter</a></li>

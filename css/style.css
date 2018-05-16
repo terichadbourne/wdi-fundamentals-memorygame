@@ -13,7 +13,16 @@ a {
 	text-decoration: none;
 	color: #F15B31;
 	font-size: 18px;
-	margin: 0px 20px;
+}
+
+button {
+	background-color: #00A6B3;
+	color: #FFFFFF;
+	font-size: 16px;
+	padding: 10px;
+	font-weight: bold;
+	border-radius: 10px;
+	margin: 10px;
 }
 
 footer {
@@ -42,11 +51,17 @@ h2 {
 header {
 	background-color: #F15B31;
 	color: #FFFFFF;
-	padding: 0 20px 30px 20px;
+	padding: 10px;
 }
 
 img {
 	margin: 40px 8px 0px 8px;
+}
+
+li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0px 20px;
 }
 main {
 	width: 850px;
@@ -55,12 +70,13 @@ main {
 
 nav {
 	background-color: #00A6B3;
-	color: #FFFFFF;
 	padding: 20px 0;
 }
 
 nav a {
 	border-bottom: 2px solid transparent;
+	margin: 0px 20px;
+	color: #FFFFFF;
 }
 
 a:hover {
@@ -94,3 +110,4 @@ p {
 	color: #F15B31;
 	font-weight: 700;
 }
+
